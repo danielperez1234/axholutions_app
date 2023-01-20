@@ -1,5 +1,6 @@
 import 'package:axholutions/color_schemes.g.dart';
 import 'package:axholutions/widgets/app_button.dart';
+import 'package:axholutions/widgets/logo_circle.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,6 +39,7 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              LogoCircle(),
               Card(
                 color: color.tertiaryContainer,
                 shadowColor: color.shadow,

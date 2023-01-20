@@ -13,6 +13,7 @@ class AppButton extends StatelessWidget {
       onPressed: onPressed,
       color: color.primary,
       disabledColor: color.outline,
+      shape: RoundedRectangleBorder(),
       child: Text(
         text.toUpperCase(),
         style: textStyleRegular(color: color.onPrimary, size: 18),
